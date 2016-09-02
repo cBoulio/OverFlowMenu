@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="@string/settings"
+        android:id="@+id/settings_icon"
+        android:icon="@mipmap/settings_icon"
+        app:showAsAction="always"/>
+
+    <item android:title="@string/action_overflow"
+        android:id="@+id/settings_icon2"
+        android:icon="@mipmap/settings_icon2"
+        app:showAsAction="always">
+
+        <!--  nested menu  -->
+        <menu>
+                <group android:checkableBehavior="single">
+                    <item android:title="@string/menu_green"
+                        android:id="@+id/menu_green"
+                        android:icon="@mipmap/settings_icon2"
+                        app:showAsAction="always"/>
+
+                    <item android:title="@string/menu_red"
+                    android:id="@+id/menu_red"
+                    android:icon="@mipmap/settings_icon2"
+                    app:showAsAction="always"/>
+
+                    <item android:title="@string/menu_yello"
+                        android:id="@+id/menu_yello"
+                        android:icon="@mipmap/settings_icon2"
+                        app:showAsAction="always"/>
+
+                </group>
+        </menu>
+
+    </item>
+
+
+
+
+</menu>

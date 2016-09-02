@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OverFlowMenu</string>
+    <string name="settings">settings</string>
+    <string name="action_overflow" />
+    <string name="menu_green" />
+    <string name="menu_red" />
+    <string name="menu_yello" />
+    <string name="checkBoxSummary">This option if selected will allow the application to check for latest versions</string>
+    <string name="EditTextPreferences">Please provide your user name</string>
+    <string name="ListPreferences">Select the kind of data that you would like to download</string>
+    <string name="DownloadDetails">Download Details</string>
+    <string name="AppUpdates">application Updates</string>
+    <string name="yourName">Your name</string>
+
+
+    <string-array name="listArray">
+        <item>Headings</item>
+        <item>Headings and details</item>
+        <item>All Data</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
